@@ -1,0 +1,40 @@
+
+            body{
+                background-color: black;
+                color: darkgoldenrod;
+            }
+        h1{
+            text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 72px;
+    border-bottom: 10px solid burlywood;
+            transition: all 8s;
+}
+            h1:hover{
+                transform: rotateY(360deg);
+                opacity:.5;
+            }
+
+.resp, .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    border: 3px solid black;
+    margin: 25px;
+    width: 400px;
+    height: 250px;
+    transition: all 1s;
+}
+
+img:hover{
+    /* transform: translate3d(5px, 5px, 5px); */
+    transform:rotatez(270deg);
+    border: 10px solid darkorange;
+    width: 200px 
+}
+ 
